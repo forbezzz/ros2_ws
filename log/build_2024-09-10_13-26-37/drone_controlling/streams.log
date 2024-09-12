@@ -1,0 +1,29 @@
+[1.064s] Invoking command in '/root/ros2_ws/src/drone_controlling': PYTHONPATH=/root/ros2_ws/build/drone_controlling/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages:/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_controlling build --build-base /root/ros2_ws/build/drone_controlling/build install --record /root/ros2_ws/build/drone_controlling/install.log --single-version-externally-managed install_data
+[1.376s] running egg_info
+[1.390s] writing ../../build/drone_controlling/drone_controlling.egg-info/PKG-INFO
+[1.390s] writing dependency_links to ../../build/drone_controlling/drone_controlling.egg-info/dependency_links.txt
+[1.392s] writing entry points to ../../build/drone_controlling/drone_controlling.egg-info/entry_points.txt
+[1.392s] writing requirements to ../../build/drone_controlling/drone_controlling.egg-info/requires.txt
+[1.393s] writing top-level names to ../../build/drone_controlling/drone_controlling.egg-info/top_level.txt
+[1.438s] reading manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'
+[1.439s] writing manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'
+[1.440s] running build
+[1.440s] running build_py
+[1.444s] copying drone_controlling/AICoordinates.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+[1.444s] running install
+[1.451s] running install_lib
+[1.469s] copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/AICoordinates.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+[1.470s] byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/AICoordinates.py to AICoordinates.cpython-312.pyc
+[1.473s] running install_data
+[1.473s] running install_egg_info
+[1.491s] removing '/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling-0.0.0-py3.12.egg-info' (and everything under it)
+[1.491s] Copying ../../build/drone_controlling/drone_controlling.egg-info to /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling-0.0.0-py3.12.egg-info
+[1.492s] running install_scripts
+[1.633s] Installing AICoordinates script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+[1.633s] Installing PIDMovement script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+[1.635s] Installing collector script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+[1.636s] Installing commander script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+[1.636s] Installing movement script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+[1.637s] Installing telemtry script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+[1.638s] writing list of installed files to '/root/ros2_ws/build/drone_controlling/install.log'
+[1.737s] Invoked command in '/root/ros2_ws/src/drone_controlling' returned '0': PYTHONPATH=/root/ros2_ws/build/drone_controlling/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages:/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_controlling build --build-base /root/ros2_ws/build/drone_controlling/build install --record /root/ros2_ws/build/drone_controlling/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+[2024-09-11 12:24:48.740] [6138] [HailoRT] [error] [driver_os_specific.cpp:41] [list_devices] Can't find hailo pcie class, this may happen if the driver is not installed (this may happen if the kernel was updated), or if there is no connected Hailo board
+[2024-09-11 12:24:48.742] [6138] [HailoRT] [error] [hailort_driver.cpp:215] [scan_devices] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64) - Failed listing pcie devices
+[2024-09-11 12:24:48.743] [6138] [HailoRT] [error] [pcie_device.cpp:35] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-11 12:24:48.744] [6138] [HailoRT] [error] [device.cpp:62] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-12 11:48:00.645] [2831] [HailoRT] [error] [driver_os_specific.cpp:41] [list_devices] Can't find hailo pcie class, this may happen if the driver is not installed (this may happen if the kernel was updated), or if there is no connected Hailo board
+[2024-09-12 11:48:00.647] [2831] [HailoRT] [error] [hailort_driver.cpp:215] [scan_devices] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64) - Failed listing pcie devices
+[2024-09-12 11:48:00.647] [2831] [HailoRT] [error] [pcie_device.cpp:35] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-12 11:48:00.647] [2831] [HailoRT] [error] [device.cpp:62] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-12 11:50:35.548] [5004] [HailoRT] [error] [driver_os_specific.cpp:41] [list_devices] Can't find hailo pcie class, this may happen if the driver is not installed (this may happen if the kernel was updated), or if there is no connected Hailo board
+[2024-09-12 11:50:35.549] [5004] [HailoRT] [error] [hailort_driver.cpp:215] [scan_devices] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64) - Failed listing pcie devices
+[2024-09-12 11:50:35.550] [5004] [HailoRT] [error] [pcie_device.cpp:35] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-12 11:50:35.551] [5004] [HailoRT] [error] [device.cpp:62] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-12 11:54:26.549] [8342] [HailoRT] [error] [driver_os_specific.cpp:41] [list_devices] Can't find hailo pcie class, this may happen if the driver is not installed (this may happen if the kernel was updated), or if there is no connected Hailo board
+[2024-09-12 11:54:26.552] [8342] [HailoRT] [error] [hailort_driver.cpp:215] [scan_devices] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64) - Failed listing pcie devices
+[2024-09-12 11:54:26.553] [8342] [HailoRT] [error] [pcie_device.cpp:35] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)
+[2024-09-12 11:54:26.554] [8342] [HailoRT] [error] [device.cpp:62] [scan] CHECK_SUCCESS failed with status=HAILO_PCIE_DRIVER_NOT_INSTALLED(64)

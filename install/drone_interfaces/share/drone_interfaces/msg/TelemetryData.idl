@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from drone_interfaces/msg/TelemetryData.msg
+// generated code does not contain a copyright notice
+
+
+module drone_interfaces {
+  module msg {
+    struct TelemetryData {
+      double speed;
+
+      double altitude;
+
+      double latitude;
+
+      double longitude;
+
+      double orientation_roll;
+
+      double orientation_pitch;
+
+      double orientation_yaw;
+
+      double distance;
+
+      double battery_voltage;
+
+      double heading;
+
+      double acceleration;
+
+      string flight_mode;
+    };
+  };
+};

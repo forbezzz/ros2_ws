@@ -1,0 +1,40 @@
+{
+  "package_name": "drone_interfaces",
+  "output_dir": "/root/ros2_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/VelocityNed.idl",
+    "/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/TelemetryData.idl"
+  ],
+  "ros_interface_files": [
+    "/root/ros2_ws/src/drone_interfaces/msg/VelocityNed.msg",
+    "/root/ros2_ws/src/drone_interfaces/msg/TelemetryData.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces/msg/VelocityNed.idl",
+    "/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces/msg/TelemetryData.idl"
+  ],
+  "type_description_tuples": [
+    "msg/VelocityNed.idl:/root/ros2_ws/build/drone_interfaces/rosidl_generator_type_description/drone_interfaces/msg/VelocityNed.json",
+    "msg/TelemetryData.idl:/root/ros2_ws/build/drone_interfaces/rosidl_generator_type_description/drone_interfaces/msg/TelemetryData.json"
+  ]
+}

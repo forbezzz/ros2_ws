@@ -1,0 +1,8 @@
+{
+  "package_name": "drone_interfaces",
+  "output_dir": "/root/ros2_ws/build/drone_interfaces/rosidl_generator_type_description/drone_interfaces",
+  "idl_tuples": [
+    "/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/VelocityNed.idl",
+    "/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/TelemetryData.idl"
+  ]
+}

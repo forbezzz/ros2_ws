@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/root/ros2_ws/src/drone_controlling/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+    from setuptools.dist import Distribution
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 37, in <module>
+    from setuptools.config import setupcfg, pyprojecttoml
+  File "/usr/lib/python3/dist-packages/setuptools/config/pyprojecttoml.py", line 20, in <module>
+    from ._apply_pyprojecttoml import _PREVIOUSLY_DEFINED, _WouldIgnoreField
+  File "/usr/lib/python3/dist-packages/setuptools/config/_apply_pyprojecttoml.py", line 13, in <module>
+    from email.headerregistry import Address
+  File "/usr/lib/python3.12/email/headerregistry.py", line 10, in <module>
+    from email import _header_value_parser as parser
+  File "/usr/lib/python3.12/email/_header_value_parser.py", line 598, in <module>
+    class LocalPart(TokenList):
+KeyboardInterrupt

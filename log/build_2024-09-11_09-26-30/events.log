@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000847] (drone_interfaces) JobQueued: {'identifier': 'drone_interfaces', 'dependencies': OrderedDict()}
+[0.000901] (drone_controlling) JobQueued: {'identifier': 'drone_controlling', 'dependencies': OrderedDict({'drone_interfaces': '/root/ros2_ws/install/drone_interfaces'})}
+[0.000970] (drone_interfaces) JobStarted: {'identifier': 'drone_interfaces'}
+[0.022022] (drone_interfaces) JobProgress: {'identifier': 'drone_interfaces', 'progress': 'cmake'}
+[0.024993] (drone_interfaces) JobProgress: {'identifier': 'drone_interfaces', 'progress': 'build'}
+[0.025644] (drone_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/drone_interfaces', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/drone_interfaces', 'env': OrderedDict({'HOSTNAME': '4f7ba9d2a183', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/drone_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/drone_controlling:/root/ros2_ws/install/drone_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/drone_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/drone_interfaces:/root/ros2_ws/install/drone_controlling:/opt/ros/jazzy'}), 'shell': False}
+[0.099815] (-) TimerEvent: {}
+[0.200210] (-) TimerEvent: {}
+[0.300701] (-) TimerEvent: {}
+[0.310871] (drone_interfaces) StdoutLine: {'line': b'[  2%] Built target drone_interfaces__rosidl_generator_type_description\n'}
+[0.355249] (drone_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_drone_interfaces\n'}
+[0.367868] (drone_interfaces) StdoutLine: {'line': b'[  4%] Built target drone_interfaces__cpp\n'}
+[0.399687] (drone_interfaces) StdoutLine: {'line': b'[ 22%] Built target drone_interfaces__rosidl_generator_c\n'}
+[0.401551] (-) TimerEvent: {}
+[0.475120] (drone_interfaces) StdoutLine: {'line': b'[ 31%] Built target drone_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.505266] (-) TimerEvent: {}
+[0.505790] (drone_interfaces) StdoutLine: {'line': b'[ 40%] Built target drone_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.515532] (drone_interfaces) StdoutLine: {'line': b'[ 50%] Built target drone_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.543528] (drone_interfaces) StdoutLine: {'line': b'[ 59%] Built target drone_interfaces__rosidl_typesupport_cpp\n'}
+[0.575180] (drone_interfaces) StdoutLine: {'line': b'[ 68%] Built target drone_interfaces__rosidl_typesupport_c\n'}
+[0.590406] (drone_interfaces) StdoutLine: {'line': b'[ 77%] Built target drone_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.605365] (-) TimerEvent: {}
+[0.620866] (drone_interfaces) StdoutLine: {'line': b'[ 77%] Built target drone_interfaces\n'}
+[0.666695] (drone_interfaces) StdoutLine: {'line': b'[ 79%] Built target drone_interfaces__py\n'}
+[0.705572] (-) TimerEvent: {}
+[0.713133] (drone_interfaces) StdoutLine: {'line': b'[ 86%] Built target drone_interfaces__rosidl_generator_py\n'}
+[0.775333] (drone_interfaces) StdoutLine: {'line': b'[ 95%] Built target drone_interfaces_s__rosidl_typesupport_c\n'}
+[0.775718] (drone_interfaces) StdoutLine: {'line': b'[ 95%] Built target drone_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.788499] (drone_interfaces) StdoutLine: {'line': b'[100%] Built target drone_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.805662] (-) TimerEvent: {}
+[0.815122] (drone_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.831767] (drone_interfaces) StdoutLine: {'line': b'writing drone_interfaces.egg-info/PKG-INFO\n'}
+[0.832144] (drone_interfaces) StdoutLine: {'line': b'writing dependency_links to drone_interfaces.egg-info/dependency_links.txt\n'}
+[0.836292] (drone_interfaces) StdoutLine: {'line': b'writing top-level names to drone_interfaces.egg-info/top_level.txt\n'}
+[0.903727] (drone_interfaces) StdoutLine: {'line': b"reading manifest file 'drone_interfaces.egg-info/SOURCES.txt'\n"}
+[0.905345] (drone_interfaces) StdoutLine: {'line': b"writing manifest file 'drone_interfaces.egg-info/SOURCES.txt'\n"}
+[0.905713] (-) TimerEvent: {}
+[0.988624] (drone_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drone_interfaces_egg\n'}
+[1.003357] (drone_interfaces) CommandEnded: {'returncode': 0}
+[1.005874] (-) TimerEvent: {}
+[1.082179] (drone_interfaces) JobProgress: {'identifier': 'drone_interfaces', 'progress': 'install'}
+[1.096682] (drone_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/drone_interfaces'], 'cwd': '/root/ros2_ws/build/drone_interfaces', 'env': OrderedDict({'HOSTNAME': '4f7ba9d2a183', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/drone_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/drone_controlling:/root/ros2_ws/install/drone_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/drone_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/drone_interfaces:/root/ros2_ws/install/drone_controlling:/opt/ros/jazzy'}), 'shell': False}
+[1.105986] (-) TimerEvent: {}
+[1.113973] (drone_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.114430] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/ament_index/resource_index/rosidl_interfaces/drone_interfaces\n'}
+[1.114727] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/msg/VelocityNed.json\n'}
+[1.114849] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/msg/TelemetryData.json\n'}
+[1.115468] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces\n'}
+[1.115777] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg\n'}
+[1.116041] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail\n'}
+[1.116362] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__type_support.h\n'}
+[1.116480] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__struct.h\n'}
+[1.116649] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__functions.h\n'}
+[1.116732] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__description.c\n'}
+[1.116822] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__struct.h\n'}
+[1.116907] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__functions.c\n'}
+[1.116999] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__type_support.c\n'}
+[1.117090] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__type_support.c\n'}
+[1.117560] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__functions.h\n'}
+[1.117656] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__type_support.h\n'}
+[1.117730] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__functions.c\n'}
+[1.117798] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__description.c\n'}
+[1.117866] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/velocity_ned.h\n'}
+[1.117934] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/telemetry_data.h\n'}
+[1.118001] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.118068] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/library_path.sh\n'}
+[1.118141] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/library_path.dsv\n'}
+[1.120544] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_c.so\n'}
+[1.120738] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces\n'}
+[1.120839] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg\n'}
+[1.120933] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail\n'}
+[1.121037] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.121111] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__rosidl_typesupport_fastrtps_c.h\n'}
+[1.121201] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.122570] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.122754] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces\n'}
+[1.122846] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg\n'}
+[1.122937] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail\n'}
+[1.123048] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__rosidl_typesupport_introspection_c.h\n'}
+[1.123123] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__type_support.c\n'}
+[1.123201] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__type_support.c\n'}
+[1.123269] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__rosidl_typesupport_introspection_c.h\n'}
+[1.123337] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.124620] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.126551] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_c.so\n'}
+[1.127345] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces\n'}
+[1.127423] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg\n'}
+[1.127491] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/telemetry_data.hpp\n'}
+[1.127558] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.127628] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail\n'}
+[1.127695] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__traits.hpp\n'}
+[1.127762] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__struct.hpp\n'}
+[1.127829] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__type_support.hpp\n'}
+[1.127895] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__traits.hpp\n'}
+[1.127961] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__builder.hpp\n'}
+[1.128028] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__builder.hpp\n'}
+[1.128095] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__struct.hpp\n'}
+[1.128161] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__type_support.hpp\n'}
+[1.128227] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/velocity_ned.hpp\n'}
+[1.128297] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces\n'}
+[1.128363] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg\n'}
+[1.128429] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail\n'}
+[1.128495] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.128563] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.128630] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/dds_fastrtps\n'}
+[1.128696] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.129175] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.129575] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces\n'}
+[1.129656] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg\n'}
+[1.129725] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail\n'}
+[1.129792] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.129860] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/velocity_ned__type_support.cpp\n'}
+[1.129927] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.129994] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/telemetry_data__type_support.cpp\n'}
+[1.131334] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.133529] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.135157] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/pythonpath.sh\n'}
+[1.136332] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/pythonpath.dsv\n'}
+[1.136768] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces-0.0.0-py3.12.egg-info\n'}
+[1.137945] (drone_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.138707] (drone_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.139296] (drone_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.140260] (drone_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.141045] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces\n'}
+[1.141926] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.143277] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.144088] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.144765] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.145390] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/__init__.py\n'}
+[1.146486] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg\n'}
+[1.147134] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg/_telemetry_data_s.c\n'}
+[1.147972] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg/_telemetry_data.py\n'}
+[1.148808] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg/_velocity_ned.py\n'}
+[1.149973] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg/__init__.py\n'}
+[1.150882] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg/_velocity_ned_s.c\n'}
+[1.151600] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.152148] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.206104] (-) TimerEvent: {}
+[1.207519] (drone_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces'...\n"}
+[1.207741] (drone_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/msg'...\n"}
+[1.219738] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.221308] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.223415] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.224926] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_py.so\n'}
+[1.225225] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/msg/VelocityNed.idl\n'}
+[1.225313] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/msg/TelemetryData.idl\n'}
+[1.225414] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/msg/VelocityNed.msg\n'}
+[1.225525] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/msg/TelemetryData.msg\n'}
+[1.225909] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/ament_index/resource_index/package_run_dependencies/drone_interfaces\n'}
+[1.226341] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/ament_index/resource_index/parent_prefix_path/drone_interfaces\n'}
+[1.226416] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/ament_prefix_path.sh\n'}
+[1.226515] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.226628] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/path.sh\n'}
+[1.226701] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/environment/path.dsv\n'}
+[1.226796] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/local_setup.bash\n'}
+[1.226912] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/local_setup.sh\n'}
+[1.227010] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/local_setup.zsh\n'}
+[1.227110] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/local_setup.dsv\n'}
+[1.227263] (drone_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/package.dsv\n'}
+[1.227736] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/ament_index/resource_index/packages/drone_interfaces\n'}
+[1.229529] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.229613] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.230241] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.230425] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.231123] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.231305] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.232186] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.232272] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.232773] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.235678] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.236543] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.238594] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.239777] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.242489] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.243764] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.245858] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.247003] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.248537] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.249324] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.250025] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.251147] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.251463] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.251537] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.251629] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.251710] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfacesConfig.cmake\n'}
+[1.251794] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfacesConfig-version.cmake\n'}
+[1.251885] (drone_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/drone_interfaces/share/drone_interfaces/package.xml\n'}
+[1.255177] (drone_interfaces) CommandEnded: {'returncode': 0}
+[1.306212] (-) TimerEvent: {}
+[1.393366] (drone_interfaces) JobEnded: {'identifier': 'drone_interfaces', 'rc': 0}
+[1.395006] (drone_controlling) JobStarted: {'identifier': 'drone_controlling'}
+[1.406342] (-) TimerEvent: {}
+[1.506662] (-) TimerEvent: {}
+[1.607006] (-) TimerEvent: {}
+[1.707345] (-) TimerEvent: {}
+[1.809232] (-) TimerEvent: {}
+[1.911621] (-) TimerEvent: {}
+[2.012376] (-) TimerEvent: {}
+[2.112682] (-) TimerEvent: {}
+[2.212955] (-) TimerEvent: {}
+[2.313251] (-) TimerEvent: {}
+[2.413535] (-) TimerEvent: {}
+[2.513805] (-) TimerEvent: {}
+[2.615095] (-) TimerEvent: {}
+[2.715441] (-) TimerEvent: {}
+[2.737398] (drone_controlling) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_controlling', 'build', '--build-base', '/root/ros2_ws/build/drone_controlling/build', 'install', '--record', '/root/ros2_ws/build/drone_controlling/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/drone_controlling', 'env': {'HOSTNAME': '4f7ba9d2a183', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/drone_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/drone_controlling:/root/ros2_ws/install/drone_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/drone_controlling', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/drone_controlling/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/root/ros2_ws/install/drone_interfaces/lib/python3.12/site-packages:/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/drone_interfaces'}, 'shell': False}
+[2.815550] (-) TimerEvent: {}
+[2.915863] (-) TimerEvent: {}
+[3.016124] (-) TimerEvent: {}
+[3.084512] (drone_controlling) StdoutLine: {'line': b'running egg_info\n'}
+[3.100093] (drone_controlling) StdoutLine: {'line': b'writing ../../build/drone_controlling/drone_controlling.egg-info/PKG-INFO\n'}
+[3.101443] (drone_controlling) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_controlling/drone_controlling.egg-info/dependency_links.txt\n'}
+[3.106065] (drone_controlling) StdoutLine: {'line': b'writing entry points to ../../build/drone_controlling/drone_controlling.egg-info/entry_points.txt\n'}
+[3.106540] (drone_controlling) StdoutLine: {'line': b'writing requirements to ../../build/drone_controlling/drone_controlling.egg-info/requires.txt\n'}
+[3.107292] (drone_controlling) StdoutLine: {'line': b'writing top-level names to ../../build/drone_controlling/drone_controlling.egg-info/top_level.txt\n'}
+[3.116193] (-) TimerEvent: {}
+[3.138591] (drone_controlling) StdoutLine: {'line': b"reading manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'\n"}
+[3.140777] (drone_controlling) StdoutLine: {'line': b"writing manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'\n"}
+[3.140976] (drone_controlling) StdoutLine: {'line': b'running build\n'}
+[3.141078] (drone_controlling) StdoutLine: {'line': b'running build_py\n'}
+[3.149493] (drone_controlling) StdoutLine: {'line': b'copying drone_controlling/PIDMovement.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling\n'}
+[3.150730] (drone_controlling) StdoutLine: {'line': b'running install\n'}
+[3.167975] (drone_controlling) StdoutLine: {'line': b'running install_lib\n'}
+[3.189446] (drone_controlling) StdoutLine: {'line': b'copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/PIDMovement.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling\n'}
+[3.189648] (drone_controlling) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/PIDMovement.py to PIDMovement.cpython-312.pyc\n'}
+[3.189735] (drone_controlling) StdoutLine: {'line': b'running install_data\n'}
+[3.189815] (drone_controlling) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.208868] (drone_controlling) StdoutLine: {'line': b"removing '/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.209051] (drone_controlling) StdoutLine: {'line': b'Copying ../../build/drone_controlling/drone_controlling.egg-info to /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling-0.0.0-py3.12.egg-info\n'}
+[3.210414] (drone_controlling) StdoutLine: {'line': b'running install_scripts\n'}
+[3.216262] (-) TimerEvent: {}
+[3.316493] (-) TimerEvent: {}
+[3.341880] (drone_controlling) StdoutLine: {'line': b'Installing AICoordinates script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling\n'}
+[3.342082] (drone_controlling) StdoutLine: {'line': b'Installing PIDMovement script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling\n'}
+[3.345229] (drone_controlling) StdoutLine: {'line': b'Installing collector script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling\n'}
+[3.348157] (drone_controlling) StdoutLine: {'line': b'Installing commander script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling\n'}
+[3.349915] (drone_controlling) StdoutLine: {'line': b'Installing movement script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling\n'}
+[3.351789] (drone_controlling) StdoutLine: {'line': b'Installing telemtry script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling\n'}
+[3.355714] (drone_controlling) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/drone_controlling/install.log'\n"}
+[3.416629] (-) TimerEvent: {}
+[3.463096] (drone_controlling) CommandEnded: {'returncode': 0}
+[3.476699] (drone_controlling) JobEnded: {'identifier': 'drone_controlling', 'rc': 0}
+[3.477882] (-) EventReactorShutdown: {}

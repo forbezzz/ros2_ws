@@ -1,0 +1,7 @@
+{
+  "package_name": "drone_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/drone_interfaces:msg/VelocityNed.msg",
+    "/root/ros2_ws/src/drone_interfaces:msg/TelemetryData.msg"
+  ]
+}

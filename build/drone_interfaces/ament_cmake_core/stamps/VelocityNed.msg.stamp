@@ -1,0 +1,15 @@
+float32 speed
+float32 altitude
+float64 latitude
+float64 longitude
+float32 acceleration_x
+float32 acceleration_y
+float32 acceleration_z
+float32 orientation_roll
+float32 orientation_pitch
+float32 orientation_yaw
+float32 distance
+float32 battery_voltage
+float32 current_draw
+float32 rssi_level
+float32 link_quality

@@ -1,0 +1,2 @@
+/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/VelocityNed.idl
+/root/ros2_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/TelemetryData.idl

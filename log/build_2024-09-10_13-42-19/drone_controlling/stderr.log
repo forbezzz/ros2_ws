@@ -1,0 +1,5 @@
+  File "/root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/AICoordinates.py", line 125
+    print(f"X coordinate {tracker_x + tracker_w * 0.5")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+

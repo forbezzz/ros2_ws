@@ -1,0 +1,7 @@
+[console_scripts]
+AICoordinates = drone_controlling.AICoordinates:main
+PIDMovement = drone_controlling.PIDMovement:main
+collector = drone_controlling.collector:main
+commander = drone_controlling.commander:main
+movement = drone_controlling.movement:main
+telemtry = drone_controlling.telemetry:main

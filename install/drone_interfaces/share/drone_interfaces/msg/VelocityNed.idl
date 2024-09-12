@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from drone_interfaces/msg/VelocityNed.msg
+// generated code does not contain a copyright notice
+
+
+module drone_interfaces {
+  module msg {
+    struct VelocityNed {
+      float speed;
+
+      float altitude;
+
+      double latitude;
+
+      double longitude;
+
+      float acceleration_x;
+
+      float acceleration_y;
+
+      float acceleration_z;
+
+      float orientation_roll;
+
+      float orientation_pitch;
+
+      float orientation_yaw;
+
+      float distance;
+
+      float battery_voltage;
+
+      float current_draw;
+
+      float rssi_level;
+
+      float link_quality;
+    };
+  };
+};

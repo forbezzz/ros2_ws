@@ -1,0 +1,83 @@
+running egg_info
+creating ../../build/drone_controlling/drone_controlling.egg-info
+writing ../../build/drone_controlling/drone_controlling.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_controlling/drone_controlling.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_controlling/drone_controlling.egg-info/entry_points.txt
+writing requirements to ../../build/drone_controlling/drone_controlling.egg-info/requires.txt
+writing top-level names to ../../build/drone_controlling/drone_controlling.egg-info/top_level.txt
+writing manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'
+reading manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_controlling/drone_controlling.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/drone_controlling/build
+creating /root/ros2_ws/build/drone_controlling/build/lib
+creating /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/tele1.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/commander.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/test1.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/cmd_test.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/test2.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/test_image.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/cam.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/collector.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/com_test.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/movement.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/__init__.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/tele_test.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/logs.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/docker.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/manual.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/telemetry.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+copying drone_controlling/test3.py -> /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling
+running install
+running install_lib
+creating /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/tele1.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/commander.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/test1.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/cmd_test.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/test2.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/test_image.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/cam.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/collector.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/com_test.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/movement.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/__init__.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/tele_test.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/logs.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/docker.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/manual.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/telemetry.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+copying /root/ros2_ws/build/drone_controlling/build/lib/drone_controlling/test3.py -> /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/tele1.py to tele1.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/commander.py to commander.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/test1.py to test1.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/cmd_test.py to cmd_test.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/test2.py to test2.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/test_image.py to test_image.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/cam.py to cam.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/collector.py to collector.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/com_test.py to com_test.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/movement.py to movement.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/__init__.py to __init__.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/tele_test.py to tele_test.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/logs.py to logs.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/docker.py to docker.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/manual.py to manual.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/telemetry.py to telemetry.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling/test3.py to test3.cpython-312.pyc
+running install_data
+creating /root/ros2_ws/install/drone_controlling/share/ament_index
+creating /root/ros2_ws/install/drone_controlling/share/ament_index/resource_index
+creating /root/ros2_ws/install/drone_controlling/share/ament_index/resource_index/packages
+copying resource/drone_controlling -> /root/ros2_ws/install/drone_controlling/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/drone_controlling/share/drone_controlling
+running install_egg_info
+Copying ../../build/drone_controlling/drone_controlling.egg-info to /root/ros2_ws/install/drone_controlling/lib/python3.12/site-packages/drone_controlling-0.0.0-py3.12.egg-info
+running install_scripts
+Installing collector script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+Installing commander script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+Installing movement script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+Installing telemtry script to /root/ros2_ws/install/drone_controlling/lib/drone_controlling
+writing list of installed files to '/root/ros2_ws/build/drone_controlling/install.log'

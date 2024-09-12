@@ -1,0 +1,12 @@
+float64 speed
+float64 altitude
+float64 latitude
+float64 longitude
+float64 orientation_roll
+float64 orientation_pitch
+float64 orientation_yaw
+float64 distance
+float64 battery_voltage
+float64 heading
+float64 acceleration
+string flight_mode
